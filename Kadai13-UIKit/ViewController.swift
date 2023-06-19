@@ -17,8 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let nib = UINib(nibName: "ListTableViewCell", bundle: nil)
         listTableView.register(nib, forCellReuseIdentifier: "customCell")
-        listTableView.delegate = self
-        listTableView.dataSource = self
+//        listTableView.delegate = self
+//        listTableView.dataSource = self
     }
 }
 

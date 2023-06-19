@@ -20,6 +20,10 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="748"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="GQb-6E-RLX"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="UJN-o5-eGy"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
